@@ -1,6 +1,6 @@
-x = int(input("enter number1"))
-y = int(input("enter number2"))
-if x%y == 0 :
-    print ("they are divisible by each other")
-else :
-    print ("they are not divisible")
+char = input("Enter a character: ")
+if len(char) != 1:
+    print("Please enter exactly one character.")
+else:
+    ascii_value = ord(char)
+    print(f"The ASCII value of '{char}' is {ascii_value}.")
